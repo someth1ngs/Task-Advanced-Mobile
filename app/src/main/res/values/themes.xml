@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AdvancedTask" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/Primary</item>
+        <item name="colorPrimaryVariant">@color/Primary</item>
+        <item name="android:statusBarColor">@color/Primary</item>
+    </style>
+
+    <style name="Theme.AdvancedTask" parent="Base.Theme.AdvancedTask" />
+</resources>
