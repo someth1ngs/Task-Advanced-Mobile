@@ -1,2 +1,2 @@
 # Task-Advanced-Mobile
-(On Progress)
+Done (JSON API & Retrofit + RecycleView + Animation)

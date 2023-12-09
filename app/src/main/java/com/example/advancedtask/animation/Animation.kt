@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.example.advancedtask.MainActivity
 import com.example.advancedtask.R
 import com.example.advancedtask.databinding.ActivityAnimationBinding
+import com.example.advancedtask.movie.MovieMainActivity
 
 class Animation : AppCompatActivity() {
 
@@ -16,7 +17,7 @@ class Animation : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnAnimation.setOnClickListener{
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, MovieMainActivity::class.java)
             startActivity(intent)
         }
     }
